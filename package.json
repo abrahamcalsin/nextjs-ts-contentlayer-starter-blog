@@ -5,6 +5,7 @@
   "scripts": {
     "build": "next build",
     "check:format": "pnpm run prettier --list-different",
+    "clean": "pnpm dlx rimraf -rf .next .contentlayer",
     "dev": "next dev",
     "format": "pnpm run prettier --write",
     "lint": "eslint --max-warnings=0 --ignore-path .gitignore --ext .ts,.tsx .",
@@ -17,10 +18,13 @@
     "@types/node": "18.11.18",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
+    "contentlayer": "0.3.0",
     "eslint-config-next": "13.1.4",
     "next": "13.1.4",
+    "next-contentlayer": "0.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "remark-gfm": "^3.0.1",
     "typescript": "4.9.4"
   },
   "devDependencies": {
