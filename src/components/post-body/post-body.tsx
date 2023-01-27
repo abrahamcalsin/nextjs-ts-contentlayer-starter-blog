@@ -1,7 +1,9 @@
 import * as React from 'react'
 
+import { DateFormat } from '~/components/date-format'
 import { MdxComponents } from '~/components/mdx-components'
 import { Post } from '~/types/post'
+import { dateFormat } from '~/utils/date-format'
 
 interface PostBodyProps {
   title: Post['title']
@@ -18,7 +20,7 @@ export default function PostBody(props: PostBodyProps) {
         <h1 style={{ fontSize: '30px', marginBottom: '10px' }}>{title}</h1>
         <p>
           <span>Published: </span>
-          <span>{date}</span>
+          <DateFormat date={date} dateFormat={dateFormat.USA} locale="en" />
         </p>
       </header>
       <main>
