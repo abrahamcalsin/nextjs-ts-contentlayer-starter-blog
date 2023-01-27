@@ -16,5 +16,9 @@ export default function MdxComponents(props: MdxComponentsProps) {
     }
   }, [])
 
-  return <Component components={components} />
+  return (
+    <div className="mdx">
+      <Component components={components} />
+    </div>
+  )
 }
