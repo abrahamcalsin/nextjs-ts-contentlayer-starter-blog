@@ -156,3 +156,9 @@
     margin-bottom: 0px;
   }
 }
+
+/* Autolink headings */
+.select-anchor {
+  position: absolute;
+  left: -18px;
+}
