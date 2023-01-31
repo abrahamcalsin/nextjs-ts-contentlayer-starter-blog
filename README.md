@@ -41,7 +41,7 @@ pnpm run build
 
 ## Support
 
-Using the template? Support this effort by giving a star on GitHub, sharing your own blog and giving a shoutout on Twitter or becoming a [project sponsor](buymeacoffee.com/abrahamcalsin).
+Using the template? Support this effort by giving a star on GitHub, sharing your own blog and giving a shoutout on Twitter or becoming a [project sponsor](https://www.buymeacoffee.com/abrahamcalsin).
 
 ## License:
 
