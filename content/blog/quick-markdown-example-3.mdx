@@ -4,7 +4,7 @@ description: "This is a quick markdown example"
 date: "2023-01-27T00:00:00.000Z"
 coverImage: "./blog-covers/quick-markdown-example-cover.jpg"
 ---
-
+---
 
 # _Headings:_
 
@@ -101,72 +101,60 @@ Use `code` in your Markdown file.
 
 ## _Code Blocks:_
 
-```js
+You can _choose a theme_ [**👉 here 👈**](https://github.com/PrismJS/prism-themes).
+
+```js:JavaScript {2}
 const greet = (name) => {
-    console.log(`Hello, ${name}!`);
-}
+  console.log(`Hello, ${name}!`);
+};
 
 greet("John");
 ```
 
 
-```tsx
+```tsx:TypeScript_React
 function greet(name: string) {
-    console.log(`Hello, ${name}!`);
+  console.log(`Hello, ${name}!`);
 }
 
 greet("John");
 ```
 
 
-```py
+```py:Python
 def greet(name):
-    print("Hello, " + name + "!")
+ print("Hello, " + name + "!")
 
 greet("John")
 ```
 
 
-```html
+```html:HTML
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Greeting</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1 id="greeting">Hello, John!</h1>
-</body>
+  </body>
 </html>
 ```
 
 
-```css
+```css:CSS
 #greeting {
-    color: blue;
-    font-size: 30px;
-    text-align: center;
+  color: blue;
+  font-size: 30px;
+  text-align: center;
 }
 ```
 
 
-```shell
+```shell:Shell
 echo "Hello, $1!"
 
-greet John
-```
-
-
-```c++
-#include <iostream>
-
-void greet(std::string name) {
-    std::cout << "Hello, " << name << "!" << std::endl;
-}
-
-int main() {
-    greet("John");
-    return 0;
-}
+# greet John
 ```
 
 ---
