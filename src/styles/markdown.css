@@ -62,22 +62,8 @@
   margin: 0;
 }
 
-/* code {
-  background-color: aquamarine;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: 600;
-} */
-
-.mdx pre {
-  background-color: #132031;
-  color: #dbf1ff;
-  padding: 20px 30px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-}
-
 .mdx hr {
-  margin-bottom: 18px;
+  margin: 35px 0;
 }
 
 .mdx img {
